@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.menu {
+    background: url(cofe.jpg) no-repeat center/cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 100vh;
+}
+
+.menu__content {
+    background: #DEB887 no-repeat center/cover;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu__title {
+    text-align: center;
+    padding-bottom: 0px;
+    font-family: Impact;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.menu__text {
+    text-align: center;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.menu__subtitle {
+    font-family: Impact;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.menu__separation {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+    margin: 10px;
+    padding: 1px;
+}
+
+.menu__picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+}
+
+.menu__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu__column {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.menu__row--last {
+    padding-bottom: 15px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+.menu__hyperlink {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+
+.menu__footer {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
